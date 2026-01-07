@@ -1,4 +1,4 @@
-import type { Employee, Filter, FieldDefinition } from './types';
+import type { Employee, Filter } from './types';
 
 // Helper to access nested properties safely (e.g., "address.city")
 export const getNestedValue = (obj: any, path: string): any => {
